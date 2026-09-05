@@ -37,7 +37,7 @@ Primeira conexão foi em 29/10/1969 entre a UCLA(California) e SRI(Stanford)
 Vinto Cert e Robert Kahn > criaram juntos o TCP/IP que foi incluida na arpanet
 Milnet - exclusivamente militar
 Tim Berners-Lee - Uniu o hipertexto com TCP/IP e cria o world wide web(www)
-. 06/08/1991 http://info.cern.ch/  > Primeira página web
+. 06/08/1991 http://info.cern.ch/ Primeira página web
 
 Grandes nomes envolvidos
 

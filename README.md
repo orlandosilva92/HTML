@@ -27,6 +27,7 @@ Repositório de anotações e exercícios práticos criados durante o estudo de 
 | [`Checkbox_radio_index.html`](01%20-%20Conceitos%20Basicos/Checkbox_radio_index.html) | Formulário de pedido de pizza: checkboxes agrupados em array (`name="opcionais[]"`) e radio buttons obrigatórios (`required`) |
 | [`button_index.html`](01%20-%20Conceitos%20Basicos/button_index.html) | Tipos de `<button>` (`button`, `submit`, `reset`) dentro de um formulário com campo obrigatório |
 | [`Select_index.html`](01%20-%20Conceitos%20Basicos/Select_index.html) | Formulário com campo `<select>` (dropdown) de opções para cargo, junto com campos de texto obrigatórios |
+| [`Textarea_index.html`](01%20-%20Conceitos%20Basicos/Textarea_index.html) | Campo `<textarea>` com label associado via `for`/`id` |
 
 ## Como visualizar
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--Tipo de documento HTML5-->
+<html lang="pt-br"> <!--Idioma do documento-->
+<head> <!--Cabeçalho do documento-->
+    <meta charset="UTF-8"> <!--Codificação de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuração de visualização para dispositivos móveis-->
+    <title>Checkbox e Radio button</title> <!--Título da página-->
+</head> <!--Fim do cabeçalho do documento-->
+<body> <!--Corpo do documento-->
+    <h1>Você selecionou: Pizza de calabresa</h1> <!--Título principal da página-->
+    <form method="post"> <!--Início do formulário com método POST-->
+        <label><p>Quais opcionais você deseja?</p></label> <!--Parágrafo indicando a pergunta sobre opcionais-->
+        <label><input type="checkbox" name="opcionais[]" value="queijo"> + queijo</label> <!--Checkbox para selecionar queijo como opcional. O "[]" no name faz os checkboxes marcados chegarem ao servidor como uma lista (array); cada checkbox precisa de um "value" para identificar a opção-->
+        <br> <!--Quebra de linha-->
+        <label><input type="checkbox" name="opcionais[]" value="presunto"> + presunto</label> <!--Checkbox para selecionar presunto como opcional-->
+        <br> <!--Quebra de linha-->
+        <label><input type="checkbox" name="opcionais[]" value="tomate"> + tomate</label> <!--Checkbox para selecionar tomate como opcional-->
+        <br><br> <!--Quebra de linha-->
+        <label>Borda recheada?</label> <!--Rótulo indicando a pergunta sobre borda recheada-->
+        <br><br> <!--Quebra de linha-->
+        <label><input type="radio" name="borda" value="sim" required> Sim</label> <!--Radio button para selecionar "Sim" como opção de borda recheada. O atributo "required" torna obrigatório selecionar uma opção antes de enviar o formulário-->
+        <br> <!--Quebra de linha-->
+        <label><input type="radio" name="borda" value="nao" required> Não</label> <!--Radio button para selecionar "Não" como opção de borda recheada. O atributo "required" torna obrigatório selecionar uma opção antes de enviar o formulário-->
+        <br> <!--Quebra de linha-->
+        <label><p>Bebida?</p></label> <!--Parágrafo indicando a pergunta sobre bebida-->
+        <label><input type="radio" name="bebida" value="coca"> Coca-cola</label> <!--Radio button para selecionar Coca-cola como opção de bebida-->
+        <br> <!--Quebra de linha-->
+        <label><input type="radio" name="bebida" value="pepsi"> Pepsi</label> <!--Radio button para selecionar Pepsi como opção de bebida-->
+        <br> <!--Quebra de linha-->
+        <label><input type="radio" name="bebida" value="fanta"> Fanta</label> <!--Radio button para selecionar Fanta como opção de bebida-->
+        <br> <!--Quebra de linha-->
+        <label><input type="radio" name="bebida" value="guarana"> Guaraná</label> <!--Radio button para selecionar Guaraná como opção de bebida-->
+        <br><br> <!--Quebra de linha-->
+        <label><button type="submit">Enviar Pedido</button></label> <!--Botão de envio do formulário-->
+        <label><button type="reset">Limpar Pedido</button></label> <!--Botão para limpar o formulário-->
+    </form> <!--Fim do formulário-->
+</body> <!--Fim do corpo do documento-->
+</html> <!--Fim do documento HTML-->

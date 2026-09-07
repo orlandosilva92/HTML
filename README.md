@@ -23,7 +23,7 @@ Repositório de anotações e exercícios práticos criados durante o estudo de 
 | Arquivo | Assunto |
 |---|---|
 | [`form_index.html`](01%20-%20Conceitos%20Basicos/form_index.html) | Exemplo de formulário de cadastro (nome, idade, e-mail, senha) usando a tag `<form>` |
-| [`Inputs_index.html`](01%20-%20Conceitos%20Basicos/Inputs_index.html) | Exemplos de tipos de `<input>` do HTML5 (texto, número, range, cor, e-mail, url, data, semana, mês, hora, checkbox, radio) |
+| [`Inputs_index.html`](01%20-%20Conceitos%20Basicos/Inputs_index.html) | Exemplos de tipos de `<input>` do HTML5 (texto, número, range, cor, e-mail, url, data, semana, mês, hora, checkbox, radio, file, search) |
 
 ## Como visualizar
 

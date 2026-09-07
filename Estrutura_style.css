@@ -1,0 +1,37 @@
+/* ============================================= */
+/* GERAL / RESET */
+/* ============================================= */
+body {
+    margin: 0px; /* Remove a margem padrão do navegador */
+}
+
+/* ============================================= */
+/* TÍTULO */
+/* ============================================= */
+h1 {
+    color: blue;                  /* Cor do texto */
+    background-color: lightgray;  /* Cor de fundo do elemento */
+    font-size: 50px;              /* Tamanho da fonte */
+    text-align: center;           /* Alinha o texto horizontalmente */
+    margin-top: 0%;               /* Remove espaço acima do elemento */
+    border-top: none;             /* Remove borda superior (caso exista alguma padrão) */
+}
+
+/* ============================================= */
+/* PARÁGRAFOS */
+/* ============================================= */
+p {
+    text-align: center;           /* Alinha o texto horizontalmente */
+    font-size: 35px;              /* Tamanho da fonte */
+    background-color: lightgray;  /* Cor de fundo do elemento */
+    padding: 10px;                /* Espaçamento interno entre o texto e a borda do elemento */
+    margin: 0 20px;               /* Espaçamento externo: 0 em cima/baixo, 20px nas laterais */
+}
+
+/* ============================================= */
+/* IMAGEM */
+/* ============================================= */
+#imagem_medidas {
+    display: block; /* Necessário para o margin: auto funcionar */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+}

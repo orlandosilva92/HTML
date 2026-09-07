@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!--Tipo de documento HTML5-->
+<html lang="pt-br"> <!--Idioma do documento-->
+<head> <!--Cabeçalho do documento-->
+    <meta charset="UTF-8"> <!--Codificação de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuração de visualização para dispositivos móveis-->
+    <title>Select e seus tipos</title> <!--Título da página-->
+</head> <!--Fim do cabeçalho do documento-->
+<body> <!--Corpo do documento-->
+    <form method="get"> <!--Formulário com método GET-->
+        <label>Nome: <input type="text" name="nome" required></label><br> <!--Campo de texto para o nome, obrigatório-->
+        <label>Cargo: <!-- Rótulo que envolve o campo de seleção de cargo -->
+            <select name="cargo" required> <!-- Campo de seleção (dropdown) para escolher o cargo, obrigatório -->
+                <option value="">Selecione o cargo</option> <!-- Opção padrão vazia, para forçar o usuário a selecionar um cargo -->
+                <option value="desenvolvedor">Desenvolvedor</option> <!-- Opção para o cargo de desenvolvedor -->
+                <option value="designer">Designer</option> <!-- Opção para o cargo de designer -->
+                <option value="gerente">Gerente</option> <!-- Opção para o cargo de gerente -->
+            </select> <!-- Fim do campo de seleção -->
+        </label><br> <!-- Quebra de linha para separar os campos do formulário -->
+        <label>Assunto: <input type="text" name="assunto" required></label><br> <!-- Campo de texto para o assunto, obrigatório -->
+        <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+    </form> <!-- Fim do formulário -->
+</body> <!--Fim do corpo do documento-->
+</html> <!--Fim do documento HTML-->

@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags</title>
-</head>
-<body>
-    
+<!DOCTYPE html> <!--Tipo de documento HTML5-->
+<html lang="pt-br"> <!--Idioma do documento-->
+<head> <!--Cabeçalho do documento-->
+    <meta charset="UTF-8"> <!--Codificação de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuração de visualização para dispositivos móveis-->
+    <title>Formulário de Cadastro</title> <!--Título da página-->
+</head> <!--Fim do cabeçalho do documento-->
+<body> <!--Corpo do documento-->
+    <h1>Formulário</h1> <!--Título principal da página-->
+    <!-- Formulário e servidor trabalham bem, juntos! Cliente <> servidores <> Banco de dados -->
+    <form name="signup" action="#" method="post" target="_blank"> <!--Formulário com nome, ação, método e destino. A ação "#" indica que o formulário não será enviado para um servidor real. O método "post" envia os dados de forma segura. O target "_blank" abre a resposta em uma nova aba-->
+        Nome: <input type="text" name="nome" placeholder="Digite seu nome"><br> <!--Campo de texto para nome com placeholder e quebra de linha-->
+        Idade: <input type="number" name="idade" placeholder="Digite sua idade"><br> <!--Campo de número para idade com placeholder e quebra de linha-->
+        E-mail: <input type="email" name="email" placeholder="Digite seu e-mail"><br> <!--Campo de email para e-mail com placeholder e quebra de linha-->
+        Senha: <input type="password" name="senha" placeholder="Digite sua senha"><br> <!--Campo de senha para senha com placeholder e quebra de linha-->
+        Confirmar senha: <input type="password" name="confirmar_senha" placeholder="Confirme sua senha"><br> <!--Campo de senha para confirmação de senha com placeholder e quebra de linha-->
+        Enviar: <input type="submit" value="Enviar"> <!--Botão de envio do formulário-->
+    </form>
 </body>
 </html>

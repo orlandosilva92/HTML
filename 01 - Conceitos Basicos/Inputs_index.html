@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form> <!--Tag <form>: cria um formulário para entrada de dados-->
+        <label>Digite aqui: </label><input type="text"> <!--Campo de texto para entrada de dados-->
+        <br> <!--Quebra de linha-->
+        <label>Número: </label><input type="number" min="0" max="130"> <!--Campo de número com valores mínimo e máximo-->
+        <br> <!--Quebra de linha-->
+        <label>Botão: </label><button>Enviar</button> <!--Botão de envio do formulário-->
+        <br> <!--Quebra de linha-->
+        <label>Idade: </label><input type="range" min="0" max="100" value="18"> <!--Campo deslizante (slider) para selecionar um valor dentro de um intervalo-->
+        <br> <!--Quebra de linha-->
+        <label>Cor: </label><input type="color"> <!--Campo de seleção de cor-->
+        <br> <!--Quebra de linha-->
+        <label>E-mail: </label><input type="email">
+        <br> <!--Quebra de linha-->
+        <label>Enviar: </label><button type="submit">Enviar</button> <!--Campo de entrada de e-mail com botão de envio-->
+        <br> <!--Quebra de linha-->
+        <label>URL: </label><input type="url"> <!--Campo de entrada de URL com http:// -->
+        <br> <!--Quebra de linha-->
+        <label>Data: </label><input type="date"> <!--Campo de entrada de data-->
+        <br> <!--Quebra de linha-->
+        <label>Semana: </label><input type="week"> <!--Campo de entrada de semana. Não funciona no firefox-->
+        <br> <!--Quebra de linha-->
+        <label>Mês: </label><input type="month"> <!--Campo de entrada de mês-->
+        <br> <!--Quebra de linha-->
+        <label>Hora: </label><input type="time"> <!--Campo de entrada de hora-->
+        <br> <!--Quebra de linha-->
+        <label>Sexo: </label><input type="checkbox" name="sexo" value="masculino"><input type="checkbox" name="sexo" value="feminino"> <!--Campo de seleção de sexo com checkboxes-->
+        <br> <!--Quebra de linha-->
+        <label>Radio: </label><input type="radio" name="opcao" value="opcao1"><input type="radio" name="opcao" value="opcao2"> <!--Campo de seleção com botões de rádio-->
+        <br> <!--Quebra de linha-->
+    </form>
+</body>
+</html>

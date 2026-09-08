@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!--Tipo de documento HTML5-->
+<html lang="pt-br"> <!--Idioma do documento-->
+<head> <!--Cabeçalho do documento-->
+    <meta charset="UTF-8"> <!--Codificação de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuração de visualização para dispositivos móveis-->
+    <title>Fieldsets</title> <!--Título da página-->
+</head> <!--Fim do cabeçalho do documento-->
+<body> <!--Corpo do documento-->
+    <h1>Formulário</h1> <!--Título principal da página-->
+    <form action="get"> <!--Formulário com método GET (envia os dados na URL)-->
+        <fieldset> <!--Agrupamento de campos do formulário-->
+            <legend>Informações Pessoais</legend> <!--Título do agrupamento de campos-->
+            <label for="nome">Nome: <input type="text" id="nome" name="nome"></label><br> <!--Campo de texto para o nome, associado ao label via for/id-->
+            <label for="email">Email: <input type="email" id="email" name="email"></label><br> <!--Campo de e-mail, associado ao label via for/id-->
+            <label for="idade">Idade: <input type="number" id="idade" name="idade"></label> <!--Campo numérico para a idade, associado ao label via for/id-->
+            <label for="sexo">Sexo: <!--Label associado ao select via for/id-->
+                <select id="sexo" name="sexo"> <!--Campo de seleção (dropdown) para o sexo-->
+                    <option value="masculino">Masculino</option> <!--Opção masculino-->
+                    <option value="feminino">Feminino</option> <!--Opção feminino-->
+                    <option value="outro">Outro</option> <!--Opção outro-->
+                </select>
+            </label><br>
+            <label><button type="submit">Enviar</button></label> <!--Botão de envio do formulário. Nota: <label> normalmente associa texto a campos como input/select, não é necessário para button-->
+            <label><button type="reset">Limpar</button></label> <!--Botão para limpar o formulário-->
+        </fieldset> <!--Fim do agrupamento de campos do formulário-->
+    </form> <!--Fim do formulário-->
+</body> <!--Fim do corpo do documento-->
+</html> <!--Fim do documento HTML-->

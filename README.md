@@ -28,6 +28,9 @@ Repositório de anotações e exercícios práticos criados durante o estudo de 
 | [`button_index.html`](01%20-%20Conceitos%20Basicos/button_index.html) | Tipos de `<button>` (`button`, `submit`, `reset`) dentro de um formulário com campo obrigatório |
 | [`Select_index.html`](01%20-%20Conceitos%20Basicos/Select_index.html) | Formulário com campo `<select>` (dropdown) de opções para cargo, junto com campos de texto obrigatórios |
 | [`Textarea_index.html`](01%20-%20Conceitos%20Basicos/Textarea_index.html) | Campo `<textarea>` com label associado via `for`/`id` |
+| [`DivSpan_index.html`](01%20-%20Conceitos%20Basicos/DivSpan_index.html) | Diferença entre `<div>` (bloco) e `<span>` (inline) |
+| [`Estruturando_index.html`](01%20-%20Conceitos%20Basicos/Estruturando_index.html) | Mais formatações de texto (`strong`, sobrescrito, subscrito, citação) e a tag obsoleta `<font>` |
+| [`Fieldsets_index.html`](01%20-%20Conceitos%20Basicos/Fieldsets_index.html) | Agrupamento de campos de formulário com `<fieldset>` e `<legend>` |
 
 ## Como visualizar
 
